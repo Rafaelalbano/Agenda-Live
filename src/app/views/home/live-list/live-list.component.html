@@ -1,4 +1,22 @@
 <mat-tab-group mat-align-tabs="start" style="padding-top: 40px; padding-left: 2%; padding-right: 2%;">
-  <mat-tab label="PRÓXIMAS">PRÓXIMAS</mat-tab>
+  <mat-tab label="PRÓXIMAS">
+    <div fxLayout="row" fxLayoutAlign="start center" style="padding: 2%;">
+      <div style="margin: 0.5%">
+        <mat-card class="example-card"
+        fxFlex="0 1 calc(33.3% - 11px)"
+        fxFlex.lt-md="0 1 calc(50% - 11px)"
+        fxFlex.lt-sm="100%">
+          <mat-card-header>
+          </mat-card-header>
+
+          <mat-card-content>
+            <p>
+              Card 1
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </mat-tab>
   <mat-tab label="REALIZADAS">REALIZADAS</mat-tab>
 </mat-tab-group>
